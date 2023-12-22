@@ -1,0 +1,49 @@
+version: 1
+
+labels:
+  # Type labels
+  - label: "@type/feature"
+    title: '^(:sparkles:|:tada:|:art:).*'
+  - label: "@type/improve"
+    title: '^(:\+1:|:recycle:|:rocket:).*'
+  - label: "@type/fix"
+    title: '^:bug:.*'
+  - label: "@type/docs"
+    title: '^:books:.*'
+    files:
+      - "apps/docs/.+"
+      - "docs/.+"
+  - label: "@type/build"
+    title: '^(:wrench:|:up:).*'
+    files:
+      - "**/package.json"
+      - ".tool-versions"
+      - "tools/.+"
+  - label: "@type/ci"
+    title: '^:green_heart:.*'
+    files:
+      - '\.github/.+'
+
+  # Package labels
+  - label: "@apps/frontend"
+    files:
+      - "apps/web/.+"
+      - "apps/frontend/.+"
+  - label: "@apps/backend"
+    files:
+      - "apps/backend/.+"
+  - label: "@packages/eslint-config"
+    files:
+      - "packages/eslint-config-custom/.+"
+  - label: "@packages/prettier-config"
+    files:
+      - "packages/prettier-config/.+"
+  - label: "@packages/tsconfig"
+    files:
+      - "packages/tsconfig/.+"
+  - label: "@packages/ui"
+    files:
+      - "packages/ui/.+"
+
+  # Feature labels
+  # TBD
