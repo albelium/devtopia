@@ -1,5 +1,5 @@
 # Team 名で指定。 すべてのファイルに tomoni-admin-maintainers チームの全員が権限を持つ
-* @albelium/rss-feedly-maintainers
+* @albelium/devtopia-maintainers
 
 # GitHub や Tools 関連は @tatsutakein がオーナとなる
 /.github/ @tatsutakein
