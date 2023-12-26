@@ -11,7 +11,7 @@ updates:
       interval: daily
     open-pull-requests-limit: 20
     reviewers:
-      - 'nichicom/tomoni-admin-maintainers'
+      - 'albelium/devtopia-maintainers'
     labels:
       - 'dependencies'
       - 'ignore-for-release'
