@@ -5,6 +5,35 @@
 
 version: 2
 updates:
+  - package-ecosystem: 'npm' # See documentation for possible values
+    directory: '/' # Location of package manifests
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 20
+    reviewers:
+      - 'nichicom/tomoni-admin-maintainers'
+    labels:
+      - 'dependencies'
+      - 'ignore-for-release'
+    groups:
+      storybook:
+        patterns:
+          - "storybook"
+          - "@storybook/*"
+      eslint:
+        patterns:
+          - "eslint"
+          - "eslint-*"
+      typescript-eslint:
+        patterns:
+          - "@typescript-eslint/*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
