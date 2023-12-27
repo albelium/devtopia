@@ -1,3 +1,5 @@
+<img src="docs/images/logo.png" alt="devtopia" />
+
 # Devtopia
 
 ## GetStarted
