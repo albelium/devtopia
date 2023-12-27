@@ -1,8 +1,6 @@
 <img src="docs/images/logo.png" alt="devtopia" />
 
-# Devtopia
-
-## GetStarted
+## Get Started
 
 以下の手順を踏んで開発に参加しましょう。
 
@@ -37,3 +35,8 @@ https://huemint.com/bootstrap-plus/#palette=d7dde4-ffffff-111910-288fa2-267fa8-5
 ## Figma
 
 https://www.figma.com/file/HQFipMW3TXPtgQA09XI5Nl/Devtopia?type=design&node-id=0-1&mode=design&t=ciHTmjLjsyPU8HBm-0
+
+## Authors
+
+- [@tatsutakein](https://github.com/tatsutakein)
+- [@siropaca](https://github.com/siropaca)
