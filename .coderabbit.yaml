@@ -1,6 +1,6 @@
 # https://coderabbit.ai/docs/get-started/customize-coderabbit
 
-language: "jp"
+language: "ja"
 early_access: true
 reviews:
   request_changes_workflow: false
