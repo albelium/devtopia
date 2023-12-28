@@ -37,7 +37,7 @@ migrate_working_dir/
 *.iws
 .idea/*
 # Keep the project icon.
-!/.idea/icon.png
+!/.idea/icon.svg
 
 # Editor User Setting Files
 .vscode/*
