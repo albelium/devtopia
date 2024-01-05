@@ -1,8 +1,10 @@
 {
   "name": "@repo/typescript-config",
   "private": true,
-  "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }
