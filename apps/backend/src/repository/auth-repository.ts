@@ -1,6 +1,5 @@
 import { ok, ResultAsync } from 'neverthrow'
 
-
 export namespace AuthRepository {
   /**
    * 認証アカウントを作成する
@@ -12,8 +11,9 @@ export namespace AuthRepository {
     email: string
     password: string
   }): ResultAsync<string, Error> => {
-    return ResultAsync.fromPromise(Promise.resolve(''), (error) =>
-      new Error( 'アカウント作成に失敗しました')
+    return ResultAsync.fromPromise(
+      Promise.resolve(''),
+      (error) => new Error('アカウント作成に失敗しました')
     )
   }
 
@@ -29,8 +29,9 @@ export namespace AuthRepository {
     email: string
     password: string
   }): ResultAsync<string, Error> => {
-    return ResultAsync.fromPromise(Promise.resolve(''), (error) =>
-      new Error( 'アカウント更新に失敗しました')
+    return ResultAsync.fromPromise(
+      Promise.resolve(''),
+      (error) => new Error('アカウント更新に失敗しました')
     )
   }
 
@@ -38,8 +39,9 @@ export namespace AuthRepository {
    * トークンを検証する
    */
   export const verifyIdToken = (token: string): ResultAsync<string, Error> => {
-    return ResultAsync.fromPromise(Promise.resolve(''), (error) =>
-      new Error(  'トークンが無効です')
+    return ResultAsync.fromPromise(
+      Promise.resolve(''),
+      (error) => new Error('トークンが無効です')
     ).andThen((decodedToken) => ok(decodedToken))
   }
 }
