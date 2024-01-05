@@ -1,0 +1,10 @@
+{
+  "extends": "@repo/typescript-config/backend.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "src/__test__", "src/**/*.test.ts"]
+}
