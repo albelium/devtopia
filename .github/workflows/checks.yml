@@ -1,0 +1,81 @@
+name: Checks
+
+on:
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  changed:
+    runs-on: ubuntu-22.04
+    outputs:
+      frontend: ${{ steps.needs.outputs.frontend }}
+      backend: ${{ steps.needs.outputs.backend }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Paths Changes Filter
+        uses: dorny/paths-filter@v2.11.1
+        id: changes
+        with:
+          filters: |
+            frontend:
+              - 'apps/frontend/**/*'
+              - 'packages/eslint-config/**/*'
+              - 'packages/tsconfig-config/**/*'
+              - 'package.json'
+            backend:
+              - 'apps/backend/**/*'
+              - 'packages/eslint-config-custom/**/*'
+              - 'packages/tsconfig/**/*'
+              - 'package.json'
+      - name: Output Needs
+        id: needs
+        run: |
+          echo "frontend=${{ steps.changes.outputs.frontend == 'true' }}" >> $GITHUB_OUTPUT
+          echo "backend=${{ steps.changes.outputs.backend == 'true' }}" >> $GITHUB_OUTPUT
+
+  frontend:
+    runs-on: ubuntu-22.04
+    needs: changed
+    if: needs.changed.outputs.frontend == 'true'
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.4.0
+
+      - name: Clean install using pnpm
+        shell: bash
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build --filter=frontend
+
+  backend:
+    runs-on: ubuntu-22.04
+    needs: changed
+    if: needs.changed.outputs.backend == 'true'
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.4.0
+
+      - name: Clean install using pnpm
+        shell: bash
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run build --filter=backend
