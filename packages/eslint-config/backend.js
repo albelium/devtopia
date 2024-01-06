@@ -7,6 +7,7 @@ const project = resolve(process.cwd(), 'tsconfig.json')
  * Backend app.
  */
 
+/** @type {import("eslint").Linter.Config} */
 module.exports = {
   extends: ['eslint-config-turbo'].map(require.resolve),
   plugins: [
