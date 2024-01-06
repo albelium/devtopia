@@ -24,3 +24,11 @@ http://0.0.0.0:60000/graphql
 ```bash
 $ pnpm generate
 ```
+
+## Prisma
+
+`prisma/schema.prisma` で DB を更新するには以下のコマンドを実行します。
+
+```bash
+$ pnpm prisma:push
+```
