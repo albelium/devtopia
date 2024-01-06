@@ -53,6 +53,9 @@ importers:
       '@pothos/plugin-simple-objects':
         specifier: 3.7.0
         version: 3.7.0(@pothos/core@3.41.0)(graphql@16.8.1)
+      '@prisma/client':
+        specifier: 5.7.1
+        version: 5.7.1(prisma@5.7.1)
       dotenv:
         specifier: 16.3.1
         version: 16.3.1
@@ -3027,6 +3030,19 @@ packages:
     dependencies:
       '@pothos/core': 3.41.0(graphql@16.8.1)
       graphql: 16.8.1
+    dev: false
+
+  /@prisma/client@5.7.1(prisma@5.7.1):
+    resolution: {integrity: sha512-TUSa4nUcC4nf/e7X3jyO1pEd6XcI/TLRCA0KjkA46RDIpxUaRsBYEOqITwXRW2c0bMFyKcCRXrH4f7h4q9oOlg==}
+    engines: {node: '>=16.13'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      prisma: 5.7.1
     dev: false
 
   /@prisma/debug@5.7.1:
