@@ -27,7 +27,8 @@ await app.register(fastifyApollo(apollo), {
   context: createContext,
 })
 
-app.get('/', () => 'This is tomoni-admin backend!')
+app.get('/', () => 'This is devtopia backend!')
+app.get('/health', () => ({ status: 'ok' }))
 
 try {
   const port = process.env.PORT
