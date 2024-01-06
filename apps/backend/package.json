@@ -11,6 +11,7 @@
     "lint:fix": "eslint './src/**/{*.js,*.cjs,*.ts}' --fix",
     "generate": "graphql-codegen --config ./src/graphql/codegen.ts --require dotenv/config",
     "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio",
     "test": "jest",
     "test:watch": "jest --watch",
     "clean": "pnpm clean:tsbuildinfo; pnpm clean:dist",

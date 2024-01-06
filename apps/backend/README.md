@@ -32,3 +32,9 @@ $ pnpm generate
 ```bash
 $ pnpm prisma:push
 ```
+
+Prisma Studio は、以下のコマンドを実行することで利用できます。
+
+```bash
+$ pnpm prisma:studio
+```
