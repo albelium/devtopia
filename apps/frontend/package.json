@@ -9,9 +9,9 @@
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc",
-    "clean": "pnpm clean:cache ; pnpm clean:build",
+    "clean": "pnpm clean:cache; pnpm clean:build",
     "clean:cache": "rimraf .cache",
-    "clean:build": "rimraf build ; rimraf public/build"
+    "clean:build": "rimraf build; rimraf public/build"
   },
   "dependencies": {
     "@remix-run/css-bundle": "2.4.1",

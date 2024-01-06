@@ -12,7 +12,7 @@
     "generate": "graphql-codegen --config ./src/graphql/codegen.ts --require dotenv/config",
     "test": "jest",
     "test:watch": "jest --watch",
-    "clean": "pnpm clean:tsbuildinfo ; pnpm clean:dist",
+    "clean": "pnpm clean:tsbuildinfo; pnpm clean:dist",
     "clean:dist": "rimraf dist",
     "clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo"
   },

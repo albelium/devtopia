@@ -9,10 +9,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,json}\"",
     "test": "turbo test",
     "test:watch": "turbo test:watch",
-    "clean": "turbo run clean ; pnpm clean:turbo ; pnpm clean:node_modules",
+    "clean": "turbo run clean; pnpm clean:turbo; pnpm clean:node_modules",
     "clean:dist": "turbo run clean:dist",
     "clean:turbo": "pnpm -r exec rimraf .turbo && pnpm rimraf ./.turbo",
-    "clean:node_modules": "pnpm -r exec rimraf node_modules ; pnpm rimraf ./node_modules"
+    "clean:node_modules": "pnpm -r exec rimraf node_modules; pnpm rimraf ./node_modules"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
