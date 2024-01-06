@@ -1,7 +1,7 @@
 # Team 名で指定。 すべてのファイルに devtopia-maintainers チームの全員が権限を持つ
-* @albelium/devtopia-maintainers
+* @albelium/devtopia-maintainers @albelium-bot[bot]
 
 # GitHub や Tools 関連は @tatsutakein がオーナとなる
-/.github/ @tatsutakein
+/.github/ @tatsutakein @albelium-bot[bot]
 /scripts/ @tatsutakein
 /tools/ @tatsutakein
