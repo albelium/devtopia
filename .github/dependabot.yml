@@ -10,8 +10,6 @@ updates:
     schedule:
       interval: daily
     open-pull-requests-limit: 20
-    reviewers:
-      - 'albelium/devtopia-maintainers'
     labels:
       - 'dependencies'
       - 'ignore-for-release'
@@ -41,7 +39,6 @@ updates:
     directory: '/'
     schedule:
       interval: weekly
-    reviewers:
-      - 'albelium/devtopia-maintainers'
     labels:
       - 'dependencies'
+      - 'ignore-for-release'
