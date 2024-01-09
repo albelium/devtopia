@@ -20,6 +20,14 @@ $ make bs
 $ pnpm install
 ```
 
+### 3. Start development server
+
+以下の README を参考に開発サーバーを起動します。
+
+Frontend: [apps/frontend/README.md](./apps/frontend/README.md)
+
+Backend: [apps/backend/README.md](./apps/backend/README.md)
+
 ## Logo
 
 [Brandmark](https://app.brandmark.io/) を使ってロゴを作成しています。
