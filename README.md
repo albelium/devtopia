@@ -48,3 +48,8 @@ https://www.figma.com/file/HQFipMW3TXPtgQA09XI5Nl/Devtopia?type=design&node-id=0
 
 - [@tatsutakein](https://github.com/tatsutakein)
 - [@siropaca](https://github.com/siropaca)
+
+## License
+
+devtopia is distributed under the terms of the MIT License. See the [license](LICENSE) for more
+information.
