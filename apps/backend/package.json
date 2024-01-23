@@ -29,7 +29,7 @@
     "@pothos/plugin-scope-auth": "3.20.0",
     "@pothos/plugin-simple-objects": "3.7.0",
     "@prisma/client": "5.8.1",
-    "dotenv": "16.3.2",
+    "dotenv": "16.4.0",
     "fastify": "4.25.2",
     "graphql": "16.8.1",
     "graphql-scalars": "1.22.4",
