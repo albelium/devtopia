@@ -52,7 +52,6 @@
     "typescript": "5.3.3"
   },
   "volta": {
-    "node": "20.10.0",
-    "pnpm": "8.13.1"
+    "extends": "../../package.json"
   }
 }
