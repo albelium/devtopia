@@ -1,0 +1,18 @@
+name: "devtopia"
+
+services:
+  postgres:
+    image: postgres:16.1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: p@ssw0rd
+      POSTGRES_DB: devtopia
+    ports:
+      - "5432:5432"
+    volumes:
+      - v_postgres_data:/var/lib/postgresql/data
+      - ./postgresql/postgresql.conf:/etc/postgresql/postgresql.conf
+    command: postgres -c config_file=/etc/postgresql/postgresql.conf
+
+volumes:
+  v_postgres_data:
