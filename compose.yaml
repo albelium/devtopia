@@ -2,7 +2,7 @@ name: "devtopia"
 
 services:
   mysql:
-    image: mysql:8.0.28
+    image: mysql:8.0.36
     platform: linux/amd64
     container_name: mysql-container
     ports:
