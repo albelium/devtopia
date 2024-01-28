@@ -14,3 +14,7 @@ services:
       MYSQL_PASSWORD: p@ssw0rd
     volumes:
       - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      - v_mysql_data:/var/lib/mysql
+
+volumes:
+  v_mysql_data:
