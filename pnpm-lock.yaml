@@ -31,7 +31,7 @@ importers:
         version: 4.10.0(graphql@16.8.1)
       '@as-integrations/fastify':
         specifier: 2.1.1
-        version: 2.1.1(@apollo/server@4.10.0)(fastify@4.25.2)
+        version: 2.1.1(@apollo/server@4.10.0)(fastify@4.26.0)
       '@fastify/compress':
         specifier: 6.5.0
         version: 6.5.0
@@ -60,8 +60,8 @@ importers:
         specifier: 16.4.1
         version: 16.4.1
       fastify:
-        specifier: 4.25.2
-        version: 4.25.2
+        specifier: 4.26.0
+        version: 4.26.0
       graphql:
         specifier: 16.8.1
         version: 16.8.1
@@ -437,7 +437,7 @@ packages:
       - encoding
     dev: true
 
-  /@as-integrations/fastify@2.1.1(@apollo/server@4.10.0)(fastify@4.25.2):
+  /@as-integrations/fastify@2.1.1(@apollo/server@4.10.0)(fastify@4.26.0):
     resolution: {integrity: sha512-iupYSQyRrlBAdsDcCYzuKjJlJAKiQpRDLd33A6yAF3Ip/rGrSDDDrxfJWp6FqyVlivSL+MQkGIphmUI/ckfZkg==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -445,7 +445,7 @@ packages:
       fastify: ^4.4.0
     dependencies:
       '@apollo/server': 4.10.0(graphql@16.8.1)
-      fastify: 4.25.2
+      fastify: 4.26.0
       fastify-plugin: 4.5.1
     dev: false
 
@@ -6366,8 +6366,8 @@ packages:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
     dev: false
 
-  /fastify@4.25.2:
-    resolution: {integrity: sha512-SywRouGleDHvRh054onj+lEZnbC1sBCLkR0UY3oyJwjD4BdZJUrxBqfkfCaqn74pVCwBaRHGuL3nEWeHbHzAfw==}
+  /fastify@4.26.0:
+    resolution: {integrity: sha512-Fq/7ziWKc6pYLYLIlCRaqJqEVTIZ5tZYfcW/mDK2AQ9v/sqjGFpj0On0/7hU50kbPVjLO4de+larPA1WwPZSfw==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.4.1
@@ -6376,7 +6376,7 @@ packages:
       avvio: 8.2.1
       fast-content-type-parse: 1.1.0
       fast-json-stringify: 5.9.2
-      find-my-way: 7.7.0
+      find-my-way: 8.1.0
       light-my-request: 5.11.0
       pino: 8.17.2
       process-warning: 3.0.0
@@ -6458,8 +6458,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /find-my-way@7.7.0:
-    resolution: {integrity: sha512-+SrHpvQ52Q6W9f3wJoJBbAQULJuNEEQwBvlvYwACDhBTLOTMiQ0HYWh4+vC3OivGP2ENcTI1oKlFA2OepJNjhQ==}
+  /find-my-way@8.1.0:
+    resolution: {integrity: sha512-41QwjCGcVTODUmLLqTMeoHeiozbMXYMAE1CKFiDyi9zVZ2Vjh0yz3MF0WQZoIb+cmzP/XlbFjlF2NtJmvZHznA==}
     engines: {node: '>=14'}
     dependencies:
       fast-deep-equal: 3.1.3
