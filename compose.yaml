@@ -4,7 +4,6 @@ services:
   mysql:
     image: mysql:8.0.36
     platform: linux/amd64
-    container_name: mysql-container
     ports:
       - "3306:3306"
     environment:
