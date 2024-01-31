@@ -33,8 +33,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1(@apollo/server@4.10.0)(fastify@4.26.0)
       '@fastify/compress':
-        specifier: 6.5.0
-        version: 6.5.0
+        specifier: 7.0.0
+        version: 7.0.0
       '@fastify/cors':
         specifier: 9.0.1
         version: 9.0.1
@@ -1833,8 +1833,8 @@ packages:
       fast-uri: 2.3.0
     dev: false
 
-  /@fastify/compress@6.5.0:
-    resolution: {integrity: sha512-AqUOK714jY7qkzbQbS4zyI4yNFgnRoOJ3eH/oV1T9f5fFdPDRdrFxm5de1ya5n+as4bvitjwU9EY7zvtT9pI2A==}
+  /@fastify/compress@7.0.0:
+    resolution: {integrity: sha512-jo/NaBVHP1OXIf8Kmr3bZyYQB0gAIgcy5c8rRKTPjhklHO7lRs/6ZFckUVT0NtbKSvrTuIcmSkxYpjyv3FNHXA==}
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
       fastify-plugin: 4.5.1
