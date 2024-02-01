@@ -6,7 +6,7 @@
     "@typescript-eslint/parser": "6.20.0",
     "@vercel/style-guide": "5.1.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-config-turbo": "1.12.1",
+    "eslint-config-turbo": "1.12.2",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-neverthrow": "1.1.4",
