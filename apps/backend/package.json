@@ -34,7 +34,7 @@
     "graphql": "16.8.1",
     "graphql-scalars": "1.22.4",
     "neverthrow": "6.1.0",
-    "prisma": "5.9.0"
+    "prisma": "5.9.1"
   },
   "devDependencies": {
     "@faker-js/faker": "8.4.0",
