@@ -1,18 +1,19 @@
 name: "devtopia"
 
 services:
-  postgres:
-    image: postgres:16.1
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: p@ssw0rd
-      POSTGRES_DB: devtopia
+  mysql:
+    image: mysql:8.0.36
+    platform: linux/amd64
     ports:
-      - "5432:5432"
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: devtopia
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: p@ssw0rd
     volumes:
-      - v_postgres_data:/var/lib/postgresql/data
-      - ./postgresql/postgresql.conf:/etc/postgresql/postgresql.conf
-    command: postgres -c config_file=/etc/postgresql/postgresql.conf
+      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      - v_mysql_data:/var/lib/mysql
 
 volumes:
-  v_postgres_data:
+  v_mysql_data:
