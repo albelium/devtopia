@@ -170,8 +170,8 @@ importers:
         specifier: 9.1.0
         version: 9.1.0(eslint@8.56.0)
       eslint-config-turbo:
-        specifier: 1.12.2
-        version: 1.12.2(eslint@8.56.0)
+        specifier: 1.12.3
+        version: 1.12.3(eslint@8.56.0)
       eslint-plugin-import:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
@@ -194,8 +194,8 @@ importers:
         specifier: 4.6.0
         version: 4.6.0(eslint@8.56.0)
       eslint-plugin-unicorn:
-        specifier: 50.0.1
-        version: 50.0.1(eslint@8.56.0)
+        specifier: 51.0.1
+        version: 51.0.1(eslint@8.56.0)
       eslint-plugin-unused-imports:
         specifier: 3.0.0
         version: 3.0.0(@typescript-eslint/eslint-plugin@6.21.0)(eslint@8.56.0)
@@ -5630,13 +5630,13 @@ packages:
       eslint: 8.56.0
     dev: true
 
-  /eslint-config-turbo@1.12.2(eslint@8.56.0):
-    resolution: {integrity: sha512-JHTGtDQuISBEWIorHenu5AeX1nv16NiDgDVRi1i0VyeYw0SiVh+lSQbv4BawXSnG1nOFpjbopAQdZvdB3PwXbQ==}
+  /eslint-config-turbo@1.12.3(eslint@8.56.0):
+    resolution: {integrity: sha512-Q46MEOiNJpJWC3Et5/YEuIYYhbOieS04yZwQOinO2hpZw3folEXV+hbwVo8M+ap/q8gtpjIWiRMZ1A4QxmhEqQ==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.56.0
-      eslint-plugin-turbo: 1.12.2(eslint@8.56.0)
+      eslint-plugin-turbo: 1.12.3(eslint@8.56.0)
     dev: true
 
   /eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1):
@@ -5912,8 +5912,8 @@ packages:
       '@microsoft/tsdoc-config': 0.16.2
     dev: true
 
-  /eslint-plugin-turbo@1.12.2(eslint@8.56.0):
-    resolution: {integrity: sha512-/l0aGvZRzK1LMRTibRd6ZbEEuD5TtGotDTkZpxSIWA1FI764pWVvQduQMKBaRuz7aTuAo0WxatD8v1scK+qRWw==}
+  /eslint-plugin-turbo@1.12.3(eslint@8.56.0):
+    resolution: {integrity: sha512-7hEyxa+oP898EFNoxVenHlH8jtBwV1hbbIkdQWgqDcB0EmVNGVEZkYRo5Hm6BuMAjR433B+NISBJdj0bQo4/Lg==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
@@ -5945,8 +5945,8 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /eslint-plugin-unicorn@50.0.1(eslint@8.56.0):
-    resolution: {integrity: sha512-KxenCZxqSYW0GWHH18okDlOQcpezcitm5aOSz6EnobyJ6BIByiPDviQRjJIUAjG/tMN11958MxaQ+qCoU6lfDA==}
+  /eslint-plugin-unicorn@51.0.1(eslint@8.56.0):
+    resolution: {integrity: sha512-MuR/+9VuB0fydoI0nIn2RDA5WISRn4AsJyNSaNKLVwie9/ONvQhxOBbkfSICBPnzKrB77Fh6CZZXjgTt/4Latw==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: '>=8.56.0'
