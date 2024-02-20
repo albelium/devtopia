@@ -54,8 +54,8 @@ importers:
         specifier: 3.7.0
         version: 3.7.0(@pothos/core@3.41.0)(graphql@16.8.1)
       '@prisma/client':
-        specifier: 5.9.1
-        version: 5.9.1(prisma@5.9.1)
+        specifier: 5.10.1
+        version: 5.10.1(prisma@5.9.1)
       dotenv:
         specifier: 16.4.4
         version: 16.4.4
@@ -3008,8 +3008,8 @@ packages:
       graphql: 16.8.1
     dev: false
 
-  /@prisma/client@5.9.1(prisma@5.9.1):
-    resolution: {integrity: sha512-caSOnG4kxcSkhqC/2ShV7rEoWwd3XrftokxJqOCMVvia4NYV/TPtJlS9C2os3Igxw/Qyxumj9GBQzcStzECvtQ==}
+  /@prisma/client@5.10.1(prisma@5.9.1):
+    resolution: {integrity: sha512-4R8Vp6sSwVJSnOxw8WU1WSLqE/G3WJy1xA05XvW87cINoB1hEY7endw5Ppy6TrIBCCtHQim2lqfHkbPvv+i7bQ==}
     engines: {node: '>=16.13'}
     requiresBuild: true
     peerDependencies:
