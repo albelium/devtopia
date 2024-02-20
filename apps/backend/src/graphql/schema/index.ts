@@ -8,7 +8,6 @@ import './scalar.js'
 /**
  * Query
  */
-import './query/post.js'
 import './query/user.js'
 
 /**

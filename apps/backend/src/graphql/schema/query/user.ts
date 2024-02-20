@@ -1,4 +1,3 @@
-import { Users } from '../../dummy-data.js'
 import { builder } from '../builder.js'
 import { User } from '../object/user.js'
 
@@ -12,6 +11,6 @@ builder.queryField('user', (t) =>
     authScopes: {
       loggedIn: true,
     },
-    resolve: (root, arguments_) => Users.get(String(arguments_.id)),
+    resolve: () => null,
   })
 )
