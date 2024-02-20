@@ -27,7 +27,7 @@ export default function getEnvVar(): EnvVar {
 
   return {
     nodeEnv: process.env.NODE_ENV,
-    port: process.env.PORT,
+    port: Number(process.env.PORT),
     graphqlPath: process.env.GRAPHQL_PATH,
 
     auth0Domain: process.env.AUTH0_DOMAIN,
