@@ -7,7 +7,6 @@ const project = resolve(process.cwd(), 'tsconfig.json')
  * Backend app.
  */
 
-/** @type {import("eslint").Linter.Config} */
 module.exports = {
   extends: ['eslint-config-turbo'].map(require.resolve),
   plugins: [
@@ -20,9 +19,10 @@ module.exports = {
     'neverthrow',
   ],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project,
-  },
+  // FIXME: backend/prisma配下でエラーが出るので一旦コメントアウト
+  // parserOptions: {
+  //   project,
+  // },
   settings: {
     'import/resolver': {
       typescript: {
@@ -74,13 +74,17 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 'warn',
     // unicorn
     'unicorn/no-process-exit': 'off',
+    'unicorn/prefer-top-level-await': 'off',
     'unicorn/prevent-abbreviations': [
       'error',
       {
         allowList: {
           args: true,
-          env: true,
           ProcessEnv: true,
+          env: true,
+          var: true,
+          EnvVar: true,
+          getEnvVar: true,
         },
       },
     ],
