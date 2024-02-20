@@ -8,13 +8,13 @@ export interface Context {
 
 export const createContext: ApolloFastifyContextFunction<Context> = async (request) => {
   const authorization = request.headers.authorization
-  const token = authorization?.replace('Bearer ', '') ?? ''
+  const accessToken = authorization?.replace('Bearer ', '') ?? ''
 
-  const result = await AuthRepository.verifyIdToken(token)
+  const tokenResult = await AuthRepository.verifyToken(accessToken)
 
-  const uid = result.isOk() ? result.value : undefined
+  const subject = tokenResult.isOk() ? tokenResult.value.sub : undefined
 
   return {
-    uid,
+    uid: subject,
   }
 }
