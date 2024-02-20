@@ -1,5 +1,5 @@
-import { builder } from '../builder.js'
-import { User } from '../object/user.js'
+import { builder } from '../builder'
+import { User } from '../object/user'
 
 builder.queryField('user', (t) =>
   t.field({

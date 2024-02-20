@@ -8,7 +8,7 @@ import {
   UUIDResolver,
 } from 'graphql-scalars'
 
-import { builder } from './builder.js'
+import { builder } from './builder'
 
 builder.addScalarType('UUID', UUIDResolver)
 builder.addScalarType('Date', GraphQLDate)

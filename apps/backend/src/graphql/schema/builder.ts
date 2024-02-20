@@ -2,8 +2,8 @@ import SchemaBuilder from '@pothos/core'
 import ScopeAuthPlugin from '@pothos/plugin-scope-auth'
 import SimpleObjectsPlugin from '@pothos/plugin-simple-objects'
 
-import type { ScalarTypes } from './scalar.js'
-import type { Context } from '../context.js'
+import type { ScalarTypes } from './scalar'
+import type { Context } from '../context'
 
 export const builder = new SchemaBuilder<{
   Scalars: ScalarTypes

@@ -1,14 +1,14 @@
-import { builder } from './builder.js'
+import { builder } from './builder'
 
 /**
  * Scalar
  */
-import './scalar.js'
+import './scalar'
 
 /**
  * Query
  */
-import './query/user.js'
+import './query/user'
 
 /**
  * Mutation
