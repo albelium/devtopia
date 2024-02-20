@@ -37,7 +37,7 @@ migrate_working_dir/
 *.iws
 .idea/*
 # Keep the project icon.
-!/.idea/icon.svg
+!/.idea/icon.png
 
 # Editor User Setting Files
 .vscode/*
@@ -69,3 +69,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# graphql
+graphql/
