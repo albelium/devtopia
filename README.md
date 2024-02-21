@@ -55,6 +55,10 @@ https://www.figma.com/file/HQFipMW3TXPtgQA09XI5Nl/Devtopia?type=design&node-id=0
   <img src="https://contrib.rocks/image?repo=albelium/devtopia"  alt="contributors"/>
 </a>
 
+## Repo Activity
+
+![Repobeats](https://repobeats.axiom.co/api/embed/f91264f15ea08fd435e0206d2fa415efa98bf953.svg "Repobeats analytics image")
+
 ## License
 
 devtopia is distributed under the terms of the MIT License. See the [license](LICENSE) for more
