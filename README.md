@@ -1,3 +1,9 @@
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![dependabot](https://img.shields.io/badge/maintaied_with-dependabot-blue?logo=dependabot)](https://docs.github.com/en/code-security/dependabot)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/albelium/devtopia)
+
+# devtopia
+
 <img src="docs/images/logo.png" alt="devtopia" />
 
 ## Get Started
@@ -54,6 +60,10 @@ https://www.figma.com/file/HQFipMW3TXPtgQA09XI5Nl/Devtopia?type=design&node-id=0
 <a href="https://github.com/albelium/devtopia/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=albelium/devtopia"  alt="contributors"/>
 </a>
+
+## Repo Activity
+
+![Repobeats](https://repobeats.axiom.co/api/embed/f91264f15ea08fd435e0206d2fa415efa98bf953.svg "Repobeats analytics image")
 
 ## License
 
