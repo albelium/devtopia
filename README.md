@@ -1,3 +1,9 @@
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![dependabot](https://img.shields.io/badge/maintaied_with-dependabot-blue?logo=dependabot)](https://docs.github.com/en/code-security/dependabot)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/albelium/devtopia)
+
+# devtopia
+
 <img src="docs/images/logo.png" alt="devtopia" />
 
 ## Get Started
