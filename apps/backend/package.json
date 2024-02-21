@@ -35,7 +35,7 @@
     "@pothos/core": "3.41.0",
     "@pothos/plugin-scope-auth": "3.21.1",
     "@pothos/plugin-simple-objects": "3.7.0",
-    "@prisma/client": "5.10.1",
+    "@prisma/client": "5.10.2",
     "auth0": "4.3.1",
     "dotenv": "16.4.5",
     "fastify": "4.26.1",
