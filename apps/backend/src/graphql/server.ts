@@ -3,7 +3,7 @@ import { fastifyApolloDrainPlugin } from '@as-integrations/fastify'
 
 import { schema } from './schema'
 
-import type { Context } from './context.js'
+import type { Context } from './context'
 import type { FastifyInstance } from 'fastify'
 
 export const createApolloServer = ({ app }: { app: FastifyInstance }) => {
