@@ -18,7 +18,7 @@ jobs:
           private-key: ${{ secrets.BOT_PRIVATE_KEY }}
 
       # https://github.com/marketplace/actions/add-to-github-projects
-      - uses: actions/add-to-project@v0.6.0
+      - uses: actions/add-to-project@v1.0.0
         with:
           project-url: https://github.com/orgs/albelium/projects/2
           github-token: ${{ steps.app-token.outputs.token }}
