@@ -65,7 +65,7 @@
     "jest": "29.7.0",
     "prisma-erd-generator": "1.11.2",
     "tsx": "4.7.2",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "volta": {
     "extends": "../../package.json"
