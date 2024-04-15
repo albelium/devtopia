@@ -26,7 +26,7 @@
     "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
-    "@apollo/server": "4.10.2",
+    "@apollo/server": "4.10.3",
     "@as-integrations/fastify": "2.1.1",
     "@fastify/compress": "7.0.3",
     "@fastify/cors": "9.0.1",
