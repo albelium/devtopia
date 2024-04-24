@@ -57,7 +57,7 @@
     "@mermaid-js/mermaid-cli": "10.8.0",
     "@parcel/watcher": "2.4.1",
     "@prisma/generator-helper": "5.13.0",
-    "@swc/core": "1.4.16",
+    "@swc/core": "1.5.0",
     "@swc/jest": "0.2.36",
     "@types/jest": "29.5.12",
     "@types/jsonwebtoken": "9.0.6",
