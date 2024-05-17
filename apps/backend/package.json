@@ -50,7 +50,7 @@
   "devDependencies": {
     "@faker-js/faker": "8.4.1",
     "@graphql-codegen/cli": "5.0.2",
-    "@graphql-codegen/client-preset": "4.2.5",
+    "@graphql-codegen/client-preset": "4.2.6",
     "@graphql-codegen/schema-ast": "4.0.2",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
