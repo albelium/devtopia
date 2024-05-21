@@ -54,7 +54,7 @@
     "@graphql-codegen/schema-ast": "4.0.2",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@mermaid-js/mermaid-cli": "10.9.0",
+    "@mermaid-js/mermaid-cli": "10.9.1",
     "@parcel/watcher": "2.4.1",
     "@prisma/generator-helper": "5.14.0",
     "@swc/core": "1.5.7",
