@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
-    "eslint": "9.3.0",
+    "eslint": "9.4.0",
     "prettier": "3.3.1",
     "rimraf": "5.0.7",
     "turbo": "1.13.3"
