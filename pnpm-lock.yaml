@@ -57,8 +57,8 @@ importers:
         specifier: 5.15.0
         version: 5.15.0(prisma@5.15.0)
       auth0:
-        specifier: 4.4.0
-        version: 4.4.0
+        specifier: 4.4.1
+        version: 4.4.1
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -4774,11 +4774,12 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /auth0@4.4.0:
-    resolution: {integrity: sha512-umlAogwQDUYvL1Pd4RnViyps7lkvntZ3+VVDW+/4ML7/GzkJcq6VGJ20Nb60eYosQkxa7up1n9lrA4Of+BZsUg==}
+  /auth0@4.4.1:
+    resolution: {integrity: sha512-6GCDo4+aykMtivEFhhNuRGH51wblOsdpWyzaf6wIaeGlCVUzxxbGLXTnyZzUG8n0j+A1hLEeyNhPONxmDte5uA==}
     engines: {node: '>=18'}
     dependencies:
       jose: 4.15.4
+      undici-types: 6.18.2
       uuid: 9.0.1
     dev: false
 
@@ -12143,6 +12144,10 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+
+  /undici-types@6.18.2:
+    resolution: {integrity: sha512-5ruQbENj95yDYJNS3TvcaxPMshV7aizdv/hWYjGIKoANWKjhWNBsr2YEuYZKodQulB1b8l7ILOuDQep3afowQQ==}
+    dev: false
 
   /undici@6.14.1:
     resolution: {integrity: sha512-mAel3i4BsYhkeVPXeIPXVGPJKeBzqCieZYoFsbWfUzd68JmHByhc1Plit5WlylxXFaGpgkZB8mExlxnt+Q1p7A==}
