@@ -54,8 +54,8 @@ importers:
         specifier: 3.7.0
         version: 3.7.0(@pothos/core@3.41.1)(graphql@16.8.2)
       '@prisma/client':
-        specifier: 5.15.0
-        version: 5.15.0(prisma@5.15.0)
+        specifier: 5.15.1
+        version: 5.15.1(prisma@5.15.0)
       auth0:
         specifier: 4.5.0
         version: 4.5.0
@@ -134,7 +134,7 @@ importers:
         version: 29.7.0(@types/node@20.14.6)
       prisma-erd-generator:
         specifier: 1.11.2
-        version: 1.11.2(@prisma/client@5.15.0)(typescript@5.4.5)
+        version: 1.11.2(@prisma/client@5.15.1)(typescript@5.4.5)
       tsx:
         specifier: 4.15.6
         version: 4.15.6
@@ -3267,8 +3267,8 @@ packages:
       graphql: 16.8.2
     dev: false
 
-  /@prisma/client@5.15.0(prisma@5.15.0):
-    resolution: {integrity: sha512-wPTeTjbd2Q0abOeffN7zCDCbkp9C9cF+e9HPiI64lmpehyq2TepgXE+sY7FXr7Rhbb21prLMnhXX27/E11V09w==}
+  /@prisma/client@5.15.1(prisma@5.15.0):
+    resolution: {integrity: sha512-fmZRGmsUJ9+VwC/AvfP/PwdpD0xAEyPvNsD9/B3+GYpETq9VejVRT3PiqNvl76q1uYYzNZeo8u/LmzzTetHSEg==}
     engines: {node: '>=16.13'}
     requiresBuild: true
     peerDependencies:
@@ -10631,7 +10631,7 @@ packages:
       parse-ms: 2.1.0
     dev: true
 
-  /prisma-erd-generator@1.11.2(@prisma/client@5.15.0)(typescript@5.4.5):
+  /prisma-erd-generator@1.11.2(@prisma/client@5.15.1)(typescript@5.4.5):
     resolution: {integrity: sha512-abo2EBIjqJALfjm8p+uOsQk38DlU3rlLJA9/cOvcLLt8A9bjMkRwlqaZDAD/iXVZcXJRJPgJ98fEviTa+w8oTQ==}
     engines: {node: '>=14'}
     hasBin: true
@@ -10639,7 +10639,7 @@ packages:
       '@prisma/client': ^4.0.0 || ^5.0.0
     dependencies:
       '@mermaid-js/mermaid-cli': 10.9.1(typescript@5.4.5)
-      '@prisma/client': 5.15.0(prisma@5.15.0)
+      '@prisma/client': 5.15.1(prisma@5.15.0)
       '@prisma/generator-helper': 5.15.1
       dotenv: 16.4.5
     transitivePeerDependencies:
