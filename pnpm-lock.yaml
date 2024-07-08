@@ -57,8 +57,8 @@ importers:
         specifier: 5.16.1
         version: 5.16.1(prisma@5.16.1)
       auth0:
-        specifier: 4.6.0
-        version: 4.6.0
+        specifier: 4.7.0
+        version: 4.7.0
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -4774,8 +4774,8 @@ packages:
     engines: {node: '>=8.0.0'}
     dev: false
 
-  /auth0@4.6.0:
-    resolution: {integrity: sha512-ytdx8jVuuzXdyXklmLSF/d7FieDwmC+ujizSX2aFOvDvRU08PlkaG22d9yd01MfkbWng4/QpuA79Tglh04Ik1Q==}
+  /auth0@4.7.0:
+    resolution: {integrity: sha512-i8GvzdRlg8TcgRXsFEtejy+5dUOeWbnEYbU6CAkH+l8FgClGEmZpBInOJzWMkcwNae4q5AlBsCATK6nAvLtVGw==}
     engines: {node: '>=18'}
     dependencies:
       jose: 4.15.4
