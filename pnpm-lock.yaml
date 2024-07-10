@@ -45,14 +45,14 @@ importers:
         specifier: 9.1.0
         version: 9.1.0
       '@pothos/core':
-        specifier: 3.41.2
-        version: 3.41.2(graphql@16.9.0)
+        specifier: 4.0.0
+        version: 4.0.0(graphql@16.9.0)
       '@pothos/plugin-scope-auth':
         specifier: 3.22.1
-        version: 3.22.1(@pothos/core@3.41.2)(graphql@16.9.0)
+        version: 3.22.1(@pothos/core@4.0.0)(graphql@16.9.0)
       '@pothos/plugin-simple-objects':
         specifier: 3.7.1
-        version: 3.7.1(@pothos/core@3.41.2)(graphql@16.9.0)
+        version: 3.7.1(@pothos/core@4.0.0)(graphql@16.9.0)
       '@prisma/client':
         specifier: 5.16.2
         version: 5.16.2(prisma@5.16.2)
@@ -3239,31 +3239,31 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@pothos/core@3.41.2(graphql@16.9.0):
-    resolution: {integrity: sha512-iR1gqd93IyD/snTW47HwKSsRCrvnJaYwjVNcUG8BztZPqMxyJKPAnjPHAgu1XB82KEdysrNqIUnXqnzZIs08QA==}
+  /@pothos/core@4.0.0(graphql@16.9.0):
+    resolution: {integrity: sha512-PJpPMmYypjlPZ/MpRPDWQ14EEAv3KCU7ckPna3emQrhLolnaEhgj5ZpigNn+gkO03wwMmPrumYMtr77jOKIVmQ==}
     peerDependencies:
-      graphql: '>=15.1.0'
+      graphql: ^16.8.1
     dependencies:
       graphql: 16.9.0
     dev: false
 
-  /@pothos/plugin-scope-auth@3.22.1(@pothos/core@3.41.2)(graphql@16.9.0):
+  /@pothos/plugin-scope-auth@3.22.1(@pothos/core@4.0.0)(graphql@16.9.0):
     resolution: {integrity: sha512-mkfbiS6tSYXFrxY9U5mEqSzAWDB3YoqQLTE/D7J/QghbDbkfFSiwQwYHHl0tL1FO32l69RMCdZy3Kz7MBBZG8w==}
     peerDependencies:
       '@pothos/core': '*'
       graphql: '>=15.1.0'
     dependencies:
-      '@pothos/core': 3.41.2(graphql@16.9.0)
+      '@pothos/core': 4.0.0(graphql@16.9.0)
       graphql: 16.9.0
     dev: false
 
-  /@pothos/plugin-simple-objects@3.7.1(@pothos/core@3.41.2)(graphql@16.9.0):
+  /@pothos/plugin-simple-objects@3.7.1(@pothos/core@4.0.0)(graphql@16.9.0):
     resolution: {integrity: sha512-641qxavEa4GJGIYfZuhOdlUy6MjQ/z0gWS5x4pSU72GIJFPSyMAFjHI8O413TzmMf4SpDGWPq0S6UNNXcrGCBQ==}
     peerDependencies:
       '@pothos/core': '*'
       graphql: '>=15.1.0'
     dependencies:
-      '@pothos/core': 3.41.2(graphql@16.9.0)
+      '@pothos/core': 4.0.0(graphql@16.9.0)
       graphql: 16.9.0
     dev: false
 
