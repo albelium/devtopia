@@ -78,8 +78,8 @@ importers:
         specifier: 3.1.0
         version: 3.1.0
       neverthrow:
-        specifier: 6.2.2
-        version: 6.2.2
+        specifier: 7.0.0
+        version: 7.0.0
       prisma:
         specifier: 5.18.0
         version: 5.18.0
@@ -9954,8 +9954,9 @@ packages:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
 
-  /neverthrow@6.2.2:
-    resolution: {integrity: sha512-POR1FACqdK9jH0S2kRPzaZEvzT11wsOxLW520PQV/+vKi9dQe+hXq19EiOvYx7lSRaF5VB9lYGsPInynrnN05w==}
+  /neverthrow@7.0.0:
+    resolution: {integrity: sha512-GDDz+SQGGZWIGYk3cL2Jf+RX7QYRJOsQltrbpBiSQiNVN4QJi3/YJhaZY4pRlDou+W3YSHk8DYBKMt4CDPBglg==}
+    engines: {node: '>=18'}
     dev: false
 
   /no-case@3.0.4:
