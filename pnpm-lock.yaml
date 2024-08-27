@@ -51,8 +51,8 @@ importers:
         specifier: 3.22.1
         version: 3.22.1(@pothos/core@3.41.2)(graphql@16.9.0)
       '@pothos/plugin-simple-objects':
-        specifier: 3.7.1
-        version: 3.7.1(@pothos/core@3.41.2)(graphql@16.9.0)
+        specifier: 4.1.0
+        version: 4.1.0(@pothos/core@3.41.2)(graphql@16.9.0)
       '@prisma/client':
         specifier: 5.19.0
         version: 5.19.0(prisma@5.19.0)
@@ -3261,11 +3261,11 @@ packages:
       graphql: 16.9.0
     dev: false
 
-  /@pothos/plugin-simple-objects@3.7.1(@pothos/core@3.41.2)(graphql@16.9.0):
-    resolution: {integrity: sha512-641qxavEa4GJGIYfZuhOdlUy6MjQ/z0gWS5x4pSU72GIJFPSyMAFjHI8O413TzmMf4SpDGWPq0S6UNNXcrGCBQ==}
+  /@pothos/plugin-simple-objects@4.1.0(@pothos/core@3.41.2)(graphql@16.9.0):
+    resolution: {integrity: sha512-R4u3Hnd6btWt1XHG3bgBa463XbDgH380GRWg88FMrDfoqqkB1EI02gsWgmASqHHJgFI35V9Tc62loGy2XpTUyA==}
     peerDependencies:
       '@pothos/core': '*'
-      graphql: '>=15.1.0'
+      graphql: '>=16.6.0'
     dependencies:
       '@pothos/core': 3.41.2(graphql@16.9.0)
       graphql: 16.9.0
