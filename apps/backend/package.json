@@ -36,7 +36,7 @@
     "@pothos/plugin-scope-auth": "3.22.1",
     "@pothos/plugin-simple-objects": "3.7.1",
     "@prisma/client": "5.19.1",
-    "auth0": "4.9.0",
+    "auth0": "4.10.0",
     "dotenv": "16.4.5",
     "fastify": "4.28.1",
     "graphql": "16.9.0",
