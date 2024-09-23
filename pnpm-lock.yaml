@@ -42,8 +42,8 @@ importers:
         specifier: 11.1.1
         version: 11.1.1
       '@fastify/rate-limit':
-        specifier: 9.1.0
-        version: 9.1.0
+        specifier: 10.0.1
+        version: 10.0.1
       '@pothos/core':
         specifier: 3.41.2
         version: 3.41.2(graphql@16.9.0)
@@ -1969,12 +1969,12 @@ packages:
       helmet: 7.1.0
     dev: false
 
-  /@fastify/rate-limit@9.1.0:
-    resolution: {integrity: sha512-h5dZWCkuZXN0PxwqaFQLxeln8/LNwQwH9popywmDCFdKfgpi4b/HoMH1lluy6P+30CG9yzzpSpwTCIPNB9T1JA==}
+  /@fastify/rate-limit@10.0.1:
+    resolution: {integrity: sha512-wLGtemfKepoe9yUyHB0zcTvCWy7H3qAScDCxny8NE+mqGNg9L1HhkWK8bIlMDCLOLfng1i7+GTikYeZvM2HFWQ==}
     dependencies:
       '@lukeed/ms': 2.0.2
-      fastify-plugin: 4.5.1
-      toad-cache: 3.4.1
+      fastify-plugin: 5.0.1
+      toad-cache: 3.7.0
     dev: false
 
   /@graphql-codegen/add@5.0.3(graphql@16.9.0):
@@ -7274,6 +7274,10 @@ packages:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
     dev: false
 
+  /fastify-plugin@5.0.1:
+    resolution: {integrity: sha512-HCxs+YnRaWzCl+cWRYFnHmeRFyR5GVnJTAaCJQiYzQSDwK9MgJdyAsuL3nh0EWRCYMgQ5MeziymvmAhUHYHDUQ==}
+    dev: false
+
   /fastify@4.28.1:
     resolution: {integrity: sha512-kFWUtpNr4i7t5vY2EJPCN2KgMVpuqfU4NjnJNCgiNB900oiDeYqaNDRcAfeBbOF5hGixixxcKnOU4KN9z6QncQ==}
     dependencies:
@@ -11896,6 +11900,11 @@ packages:
 
   /toad-cache@3.4.1:
     resolution: {integrity: sha512-T0m3MxP3wcqW0LaV3dF1mHBU294sgYSm4FOpa5eEJaYO7PqJZBOjZEQI1y4YaKNnih1FXCEYTWDS9osCoTUefg==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /toad-cache@3.7.0:
+    resolution: {integrity: sha512-/m8M+2BJUpoJdgAHoG+baCwBT+tf2VraSfkBgl0Y00qIWt41DJ8R5B8nsEw0I58YwF5IZH6z24/2TobDKnqSWw==}
     engines: {node: '>=12'}
     dev: false
 
