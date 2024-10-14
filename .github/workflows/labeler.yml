@@ -11,6 +11,6 @@ jobs:
       pull-requests: write
     steps:
       - name: Label manager for PRs and Issues based on configurable conditions
-        uses: srvaroa/labeler@v1.11.0
+        uses: srvaroa/labeler@v1.11.1
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
