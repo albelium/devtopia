@@ -78,8 +78,8 @@ importers:
         specifier: 3.1.0
         version: 3.1.0
       neverthrow:
-        specifier: 6.2.2
-        version: 6.2.2
+        specifier: 8.1.0
+        version: 8.1.0
       prisma:
         specifier: 5.21.1
         version: 5.21.1
@@ -3538,6 +3538,14 @@ packages:
   /@repeaterjs/repeater@3.0.5:
     resolution: {integrity: sha512-l3YHBLAol6d/IKnB9LhpD0cEZWAoe3eFKUyTYWmFmCO2Q/WOckxLQAUyMZWwZV2M/m3+4vgRoaolFqaII82/TA==}
     dev: true
+
+  /@rollup/rollup-linux-x64-gnu@4.24.0:
+    resolution: {integrity: sha512-ZXFk7M72R0YYFN5q13niV0B7G8/5dcQ9JDp8keJSfr3GoZeXEoMHP/HlvqROA3OMbMdfr19IjCeNAnPUG93b6A==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /@rushstack/eslint-patch@1.7.2:
     resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
@@ -9969,8 +9977,11 @@ packages:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
 
-  /neverthrow@6.2.2:
-    resolution: {integrity: sha512-POR1FACqdK9jH0S2kRPzaZEvzT11wsOxLW520PQV/+vKi9dQe+hXq19EiOvYx7lSRaF5VB9lYGsPInynrnN05w==}
+  /neverthrow@8.1.0:
+    resolution: {integrity: sha512-DV0klbzcsI0XOJvdGElzJ2sEXmEPwQLWio/ttq7D7CQApUduxqzNG2noc8ZPaAFc9XXINYVb0f5ozM0ZJKGF1w==}
+    engines: {node: '>=18'}
+    optionalDependencies:
+      '@rollup/rollup-linux-x64-gnu': 4.24.0
     dev: false
 
   /no-case@3.0.4:
