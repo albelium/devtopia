@@ -64,7 +64,7 @@
     "@types/node": "20.14.12",
     "jest": "29.7.0",
     "prisma-erd-generator": "1.11.2",
-    "tsx": "4.19.1",
+    "tsx": "4.19.2",
     "typescript": "5.6.3"
   },
   "volta": {
