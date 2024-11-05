@@ -106,8 +106,8 @@ importers:
         specifier: 2.5.0
         version: 2.5.0
       '@prisma/generator-helper':
-        specifier: 5.21.1
-        version: 5.21.1
+        specifier: 5.22.0
+        version: 5.22.0
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
@@ -3241,10 +3241,6 @@ packages:
     dependencies:
       prisma: 5.22.0
 
-  /@prisma/debug@5.21.1:
-    resolution: {integrity: sha512-uY8SAhcnORhvgtOrNdvWS98Aq/nkQ9QDUxrWAgW8XrCZaI3j2X7zb7Xe6GQSh6xSesKffFbFlkw0c2luHQviZA==}
-    dev: true
-
   /@prisma/debug@5.22.0:
     resolution: {integrity: sha512-AUt44v3YJeggO2ZU5BkXI7M4hu9BF2zzH2iF2V5pyXT/lRTyWiElZ7It+bRH1EshoMRxHgpYg4VB6rCM+mG5jQ==}
 
@@ -3267,10 +3263,10 @@ packages:
       '@prisma/engines-version': 5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2
       '@prisma/get-platform': 5.22.0
 
-  /@prisma/generator-helper@5.21.1:
-    resolution: {integrity: sha512-56+FLaNGO7uKIEjN5asV7L0cAWqTc+IoyFbtafYnzfvBS3HURgT+l9UGHrHfPO5EWFiot3my3UOJ/hGZfhNPbA==}
+  /@prisma/generator-helper@5.22.0:
+    resolution: {integrity: sha512-LwqcBQ5/QsuAaLNQZAIVIAJDJBMjHwMwn16e06IYx/3Okj/xEEfw9IvrqB2cJCl3b2mCBlh3eVH0w9WGmi4aHg==}
     dependencies:
-      '@prisma/debug': 5.21.1
+      '@prisma/debug': 5.22.0
     dev: true
 
   /@prisma/get-platform@5.22.0:
@@ -10607,7 +10603,7 @@ packages:
     dependencies:
       '@mermaid-js/mermaid-cli': 10.9.1(typescript@5.6.3)
       '@prisma/client': 5.21.1(prisma@5.22.0)
-      '@prisma/generator-helper': 5.21.1
+      '@prisma/generator-helper': 5.22.0
       dotenv: 16.4.5
     transitivePeerDependencies:
       - bufferutil
