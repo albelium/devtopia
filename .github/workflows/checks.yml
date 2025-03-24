@@ -17,7 +17,7 @@ jobs:
       backend: ${{ steps.needs.outputs.backend }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.2.1
+        uses: actions/checkout@v4.2.2
 
       - name: Paths Changes Filter
         uses: dorny/paths-filter@v3.0.2
@@ -48,7 +48,7 @@ jobs:
       contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.2.1
+        uses: actions/checkout@v4.2.2
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4.1.0
@@ -75,7 +75,7 @@ jobs:
       contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.2.1
+        uses: actions/checkout@v4.2.2
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4.1.0
